@@ -22,6 +22,7 @@ BuildRequires:	tiff-devel >= 3.6.1-3mdk
 BuildRequires:	libxml2-devel
 BuildRequires:	jpeg-devel
 BuildRequires:	file
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 libfx is a library for call control with analogue telephony interfaces.
