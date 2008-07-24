@@ -6,7 +6,7 @@
 Summary:	A library for call control with analogue telephony interfaces
 Name:		libfx
 Version:	0.0.3
-Release:	%mkrel 0.%{snap}.2
+Release:	%mkrel 0.%{snap}.3
 License:	GPL
 Group:		System/Libraries
 URL:		http://www.soft-switch.org/
