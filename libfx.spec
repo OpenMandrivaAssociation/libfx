@@ -6,7 +6,7 @@
 Summary:	A library for call control with analogue telephony interfaces
 Name:		libfx
 Version:	0.0.3
-Release:	%mkrel 0.%{snap}.4
+Release:	%mkrel 0.%{snap}.5
 License:	GPL
 Group:		System/Libraries
 URL:		http://www.soft-switch.org/
@@ -14,7 +14,7 @@ Source0:	http://www.soft-switch.org/downloads/snapshots/unicall/libfx-%{snap}.ta
 Patch0:		libfx-zaptel_header.diff
 BuildRequires:	zaptel-devel
 BuildRequires:	autoconf2.5
-BuildRequires:	automake1.7
+BuildRequires:	automake
 BuildRequires:	libspandsp-devel
 BuildRequires:	libsupertone-devel
 BuildRequires:	libunicall-devel
@@ -60,7 +60,7 @@ perl -pi -e "s|^protocoldir=.*|protocoldir=\"%{_libdir}/unicall/protocols\"|g" c
 %build
 export WANT_AUTOCONF_2_5=1
 rm -f configure
-libtoolize --copy --force && aclocal-1.7 && autoconf && automake-1.7 --add-missing --copy
+libtoolize --copy --force && aclocal && autoconf && automake --add-missing --copy
 
 %configure2_5x \
     --enable-shared \
