@@ -1,0 +1,11 @@
+--- fx.c	2005-12-20 16:57:08.000000000 +0100
++++ fx.c.oden	2007-01-26 17:15:32.000000000 +0100
+@@ -56,7 +56,7 @@
+ #include <libxml/parser.h>
+ #include <libxml/xinclude.h>
+ 
+-#include <linux/zaptel.h>
++#include <zaptel/zaptel.h>
+ 
+ #include <tiffio.h>
+ #include <spandsp.h>
