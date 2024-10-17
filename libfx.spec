@@ -10,7 +10,7 @@ Version:	0.0.3
 Release:	0.%{snap}.5
 License:	GPL
 Group:		System/Libraries
-URL:		http://www.soft-switch.org/
+URL:		https://www.soft-switch.org/
 Source0:	http://www.soft-switch.org/downloads/snapshots/unicall/libfx-%{snap}.tar.bz2
 Patch0:		libfx-zaptel_header.diff
 
